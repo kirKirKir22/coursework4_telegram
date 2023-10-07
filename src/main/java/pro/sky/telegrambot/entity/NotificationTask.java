@@ -1,4 +1,4 @@
-package pro.sky.telegrambot;
+package pro.sky.telegrambot.entity;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
