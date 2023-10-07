@@ -2,6 +2,7 @@ package pro.sky.telegrambot;
 
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.request.SendMessage;
+import pro.sky.telegrambot.entity.NotificationTask;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

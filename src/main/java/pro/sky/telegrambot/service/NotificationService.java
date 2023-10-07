@@ -1,10 +1,12 @@
-package pro.sky.telegrambot;
+package pro.sky.telegrambot.service;
 
 import com.pengrad.telegrambot.TelegramBot;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pro.sky.telegrambot.entity.NotificationTask;
+import pro.sky.telegrambot.repository.NotificationTaskRepository;
 
 import static pro.sky.telegrambot.MessageParser.parseMessage;
 
